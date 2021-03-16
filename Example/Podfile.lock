@@ -1,0 +1,72 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - TWFoundation (0.0.3):
+    - TWFoundation/NSArray (= 0.0.3)
+    - TWFoundation/NSData (= 0.0.3)
+    - TWFoundation/NSDate (= 0.0.3)
+    - TWFoundation/NSDecimalNumber (= 0.0.3)
+    - TWFoundation/NSDictionary (= 0.0.3)
+    - TWFoundation/NSFileManager (= 0.0.3)
+    - TWFoundation/NSObject (= 0.0.3)
+    - TWFoundation/NSString (= 0.0.3)
+    - TWFoundation/Prefix (= 0.0.3)
+    - TWFoundation/TWAssistant (= 0.0.3)
+  - TWFoundation/NSArray (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/NSData (0.0.3)
+  - TWFoundation/NSDate (0.0.3):
+    - TWFoundation/NSString
+  - TWFoundation/NSDecimalNumber (0.0.3):
+    - TWFoundation/NSObject
+  - TWFoundation/NSDictionary (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/NSFileManager (0.0.3)
+  - TWFoundation/NSObject (0.0.3)
+  - TWFoundation/NSString (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/Prefix (0.0.3)
+  - TWFoundation/TWAssistant (0.0.3):
+    - TWFoundation/Prefix
+  - TWUI (0.0.1):
+    - TWFoundation
+    - TWUI/UIView (= 0.0.1)
+    - TWUI/UIViewController (= 0.0.1)
+  - TWUI/UIView (0.0.1):
+    - TWFoundation
+  - TWUI/UIViewController (0.0.1):
+    - TWFoundation
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Masonry
+  - TWFoundation (~> 0.0.3)
+  - TWUI (from `../`)
+
+SPEC REPOS:
+  https://github.com/tanwang11/TWSpecs.git:
+    - TWFoundation
+  trunk:
+    - FBSnapshotTestCase
+    - Masonry
+
+EXTERNAL SOURCES:
+  TWUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TWFoundation: 5293f8fb88c98bd82c27df97ce9a74c373071e9a
+  TWUI: 15169b7c02755558389131fdc889c6e71c49e418
+
+PODFILE CHECKSUM: 5f218346b8d9631ba82f3d3612410a262a11f4d9
+
+COCOAPODS: 1.10.1

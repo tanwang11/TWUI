@@ -1,10 +1,15 @@
 use_frameworks!
 
+#sources 'https://github.com/tanwang11/TWSpecs.git'
+
 platform :ios, '9.0'
 
 target 'TWUI_Example' do
   pod 'TWUI', :path => '../'
-
+  pod 'TWFoundation', '~> 0.0.3'
+  pod 'Masonry'
+  
+  
   target 'TWUI_Tests' do
     inherit! :search_paths
 

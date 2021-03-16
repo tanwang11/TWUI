@@ -1,0 +1,42 @@
+{
+  "name": "TWUI",
+  "version": "0.0.1",
+  "summary": "TWUI.",
+  "description": "TWUI tool.",
+  "homepage": "https://github.com/tanwang11/TWUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tanwang11": "aihy@linrunwc.com"
+  },
+  "source": {
+    "git": "https://github.com/tanwang11/TWUI.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TWUI/Classes/TWUI.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreText"
+  ],
+  "dependencies": {
+    "TWFoundation": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "UIViewController",
+      "source_files": "TWUI/Classes/UIViewController/*.{h,m}"
+    },
+    {
+      "name": "UIView",
+      "source_files": "TWUI/Classes/UIView/*.{h,m}"
+    }
+  ]
+}
